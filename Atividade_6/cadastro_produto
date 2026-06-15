@@ -1,0 +1,13 @@
+
+let nomeProduto = "Notebook";
+let preco = 3500.00;
+let quantidadeEstoque = 15;
+
+
+function exibirProduto(nome, preco, quantidade) {
+    return `Produto: ${nome}
+Preço: R$ ${preco}
+Quantidade em estoque: ${quantidade}`;
+}
+
+console.log(exibirProduto(nomeProduto, preco, quantidadeEstoque));
